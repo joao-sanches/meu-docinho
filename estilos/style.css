@@ -18,7 +18,6 @@
  #D9B6A9
  */
 
-
 :root {
     --thema1--cor01:#F4F6F6;
     --thema1--cor02:#717945;
@@ -165,7 +164,6 @@ aside {
 }
 
 aside h3 {
-    background-color: #751e47;
     color: white;
     font-family: var(--fonte-nome);
     padding: 10px;
