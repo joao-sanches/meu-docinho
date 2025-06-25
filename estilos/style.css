@@ -196,3 +196,8 @@ footer {
     font-family: var(--fonte-nome);
 
 }
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
