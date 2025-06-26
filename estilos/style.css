@@ -83,29 +83,40 @@ nav {
     height: 70px;
     padding: 20px;
 }
-nav a {
-    width: 500px;
-    height: 500px;
+
+nav div {
+    display: inline-block;
+    border-radius: 10px;
+
 }
+
+nav a {
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a > p {
+    color: white;
+    text-decoration: none;
+    display: inline-flex;
+    position: relative;
+    top: -20px;
+    margin: auto;
+}
+
 nav a > img{
     border-radius: 10px;
-    margin: 0px 15px;
-    max-width: 50px;
-    max-height: 50px;
+    width: 50px;
+    height: 50px;
     transition-duration: 0.5s;
 } 
-nav img.whatsapp:hover {
-    border: 2px solid rgba(11, 250, 3, 0.596);
-    max-width: 48px;
-    max-height: 48px;
-
+nav div.whatsapp:hover {
+    box-shadow: 1px 1px 10px rgb(255, 255, 255);
 }
 
-nav img.instagram:hover {
-    border: 2px solid rgba(250, 3, 229, 0.781);
-    max-width: 48px;
-    max-height: 48px;
-
+nav div.instagram:hover {
+    box-shadow: 1px 1px 10px rgb(255, 255, 255);
 }
 
 main {
